@@ -47,6 +47,10 @@ not replace those licenses. Record upstream URLs and versions when adding addons
 and record the upstream commit when it is known. Review upstream updates before
 merging them with local changes.
 
+Local `AGENTS.md` instructions, agent tool state, editor recovery files, and
+temporary files are excluded from Git. Keep addon source, tests, translations,
+licenses, and user documentation tracked so clones remain usable and maintainable.
+
 ## To-dos
 
 - Record the exact upstream baseline commit when established.
